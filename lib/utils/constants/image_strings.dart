@@ -1,4 +1,3 @@
-//import 'package:flutter/material.dart';
 
 class TImages {
 
@@ -23,7 +22,25 @@ class TImages {
         static const String deliveredInPlaneIllustration = "assets/images/animations/back-later.png";
         static const String deliveredEmailIllustration = "assets/images/animations/receives-amail.jpg";
         static const String verifyIllustration = "assets/images/animations/back-with-ticket.png";
-
+        
+        // -- Lottie Animation
+        static const String cartAnimation = "assets/images/animations/cart-animation.json";
+        static const String orderCompletedAnimation = "assets/images/animations/order-completed-animation.json";
+        static const String packageAnimation = "assets/images/animations/package-animation.json";
+        static const String paperPlaneAnimation = "assets/images/animations/paper-plane-animation.json";
+        static const String carAnimation = "assets/images/animations/car-animation.json";
+        static const String PencilAnimation = "assets/images/animations/pencil-animation.json";
+        static const String docerAnimation = "assets/images/animations/docer-animation.json";
+        static const String searchAnimation = "assets/images/animations/search-animation.json";
+        static const String emptyAnimation = "assets/images/animations/empty-animation.json";
+        static const String securityAnimation = "assets/images/animations/security-animation.json";
+        static const String successfulRegistrationAnimation = "assets/images/animations/successful-registration-animation.json";
+        static const String thankyouAnimation = "assets/images/animations/thank-you-animation.json";
+        static const String paymentSucessfulAnimation = "assets/images/animations/payment-successful-animation.json";
+        static const String loadingJuggleAnimation = "assets/images/animations/loading-juggle-animation.json";
+        static const String cloudUploadingAnimation = "assets/images/animations/cloud-uploading-animation.json";
+        static const String loaderAnimation = "assets/images/animations/loader-animation.json";
+        
 
       //--category icons
       static const String sportIcon = "assets/icons/categories/sport-icon.png";

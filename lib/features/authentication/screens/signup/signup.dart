@@ -7,7 +7,6 @@ import 'package:my_ecommerce_app/features/authentication/screens/signup/widgets/
 // import 'package:my_ecommerce_app/utils/constants/colors.dart';
 import 'package:my_ecommerce_app/utils/constants/sizes.dart';
 import 'package:my_ecommerce_app/utils/constants/texts-strings.dart';
-// import 'package:my_ecommerce_app/utils/helpers/helper_functions.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

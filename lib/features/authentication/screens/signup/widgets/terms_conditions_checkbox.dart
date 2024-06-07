@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:my_ecommerce_app/features/authentication/controllers/signup/signup_controller.dart';
 import 'package:my_ecommerce_app/utils/constants/colors.dart';
 import 'package:my_ecommerce_app/utils/constants/sizes.dart';
 import 'package:my_ecommerce_app/utils/constants/texts-strings.dart';
@@ -10,22 +12,18 @@ class TTermsAndConditionCheckbox extends StatelessWidget {
     
   });
 
-  
-
   @override
   Widget build(BuildContext context) {
+    final controller = SignupController.instance;
   final dark = THelperFunctions.isDarkMode(context);
-
     return Row(
       children: [
-        SizedBox(
-            width: 24,
-            height: 24,
-            child:
-                Checkbox(value: true, onChanged: (value) {})),
-        const SizedBox(width: TSizes.spaceBtwItems),
+        SizedBox( width: 24,height: 24, child: Obx(()=> Checkbox(value: controller.privacypolicy.value, onChanged: (value) => controller.privacypolicy.value = !controller.privacypolicy.value),
+        ),),
+         SizedBox(width: TSizes.spaceBtwItems),
         Text.rich(
-          TextSpan(children: [
+          TextSpan(
+            children: [
           TextSpan(
               text: '${TTexts.iAgreeTo}',
               style: Theme.of(context).textTheme.bodySmall),
